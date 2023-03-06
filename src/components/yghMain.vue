@@ -65,5 +65,7 @@ main .cardsList {
     flex-wrap: wrap;
     justify-content: space-between;
 
+    gap: 25px;
+
 }
 </style>

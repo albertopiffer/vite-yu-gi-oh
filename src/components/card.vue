@@ -1,7 +1,8 @@
 <template>
     <li class="cardElement">
         <img :src="card.card_images[0].image_url" alt="">
-        {{ card.id }}
+        <h4>{{ card.name }}</h4>
+        <span>{{ card.archetype }}</span>
     </li>
 </template>
 
@@ -27,6 +28,21 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.cardElement h4 {
+    color: white;
+    font-size: 18px;
+}
+
+.cardElement span {
+    font-size: 18px;
 }
 
 img {

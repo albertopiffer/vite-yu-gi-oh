@@ -13,7 +13,7 @@ header {
     display: flex;
     align-items: center;
 
-    padding-left: 140px;
+    padding-left: 160px;
 }
 
 header h1 {

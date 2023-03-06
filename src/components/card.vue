@@ -13,7 +13,6 @@ export default {
         // PASSO L'OGGETTO INTERO COME PROP
         card: {
             type: Object,
-            required: true
         },
     }
 }

@@ -10,7 +10,6 @@
 <style lang="scss" scoped>
 header {
     height: 105px;
-    background-color: tomato;
     display: flex;
     align-items: center;
 
@@ -19,5 +18,6 @@ header {
 
 header h1 {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
 }
 </style>
